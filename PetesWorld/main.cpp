@@ -56,14 +56,81 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
-		if (letter == 'Y' || letter == 'y')
-		{
-			
 	}
+	if (letter == 'b' || letter == 'B') // written by Kacper
+	{
+		if (region == 1)
+		{
+			std::cout << "Bahamas, Bermuda, Bolivia, Belize, Barbados, Brazil" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belgium, Belarus, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Botswana, Benin, Burkina, Burundi" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bhutan, Bangladesh" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Bahrain Arabian Peninsula" << std::endl;
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	if (letter == 'Y' || letter == 'y')
+	{
 
 		if (region == 1)
 		{
-			std::cout << "There are no Ys in the Americas" << std::endl; 
+			std::cout << "There are no Ys in the Americas" << std::endl;
 		}
 		if (region == 2)
 		{
@@ -83,6 +150,7 @@ int main()
 		}
 
 	}
+
 
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
