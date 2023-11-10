@@ -1,13 +1,10 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-<<<<<<< HEAD
 // Kacper Borucki
 //  or here
-=======
 // add your name here
 //  Dean Behan 
->>>>>>> 851673063d086191887f26e4deb405da9ee644dc
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
@@ -59,7 +56,31 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
-	}	
+	}
+	if (letter == 'b' || letter == 'B') // written by Kacper
+	{
+		if (region == 1)
+		{
+			std::cout << "Bahamas, Bermuda, Bolivia, Belize, Barbados, Brazil" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belgium, Belarus, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Botswana, Benin, Burkina, Burundi" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bhutan, Bangladesh" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Bahrain Arabian Peninsula" << std::endl;
+		}
+	}
+	
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
