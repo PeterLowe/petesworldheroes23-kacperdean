@@ -80,6 +80,29 @@ int main()
 			std::cout << "Bahrain Arabian Peninsula" << std::endl;
 		}
 	}
+	if (letter == 'c' || letter == 'C') // written by Kacper
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Chile, Colombia, Costa Rica, Cuba" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Congo, Cote D'ivoire" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China, Christmas Island, Cocos Island, Cyprus" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cayman Islands, Cook Islands" << std::endl;
+		}
+	}
 	
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
