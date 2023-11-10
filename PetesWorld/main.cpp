@@ -1,13 +1,10 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-<<<<<<< HEAD
 // Kacper Borucki
 //  or here
-=======
 // add your name here
 //  Dean Behan 
->>>>>>> 851673063d086191887f26e4deb405da9ee644dc
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
