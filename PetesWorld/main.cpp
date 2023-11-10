@@ -102,6 +102,7 @@ int main()
 		{
 			std::cout << "Cayman Islands, Cook Islands" << std::endl;
 		}
+	
 	}
 	if (letter == 'd' || letter == 'D') // written by Kacper
 	{
@@ -126,6 +127,28 @@ int main()
 			std::cout << "There are no Ds in the rest of the world" << std::endl;
 		}
 	}
+	if (letter == 'e' || letter == 'E') // written by Kacper
+	{
+		if (region == 1)
+		{
+			std::cout << "Ecuador, El Salvador" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Estonia" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Equatorial Guinea, Ethiopia, Egypt" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "East Timor" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Es in the rest of the world" << std::endl;
+		}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
